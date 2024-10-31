@@ -1,0 +1,232 @@
+# Copyright (C) 2012 Plugin Directory Stats
+# This file is distributed under the same license as the Plugin Directory Stats package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin Directory Stats 0.1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/plugin-directory-stats\n"
+"POT-Creation-Date: 2012-03-05 19:12:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: plugin-directory-stats-admin.php:11
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:33
+msgid "Settings saved."
+msgstr ""
+
+#: plugin-directory-stats-admin.php:40
+msgid "All cached data were deleted."
+msgstr ""
+
+#: plugin-directory-stats-admin.php:50
+msgid "1. Settings"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:53
+msgid "Data request mode"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:56
+msgid "API"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:57
+msgid "Directly"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:59
+msgid ""
+"When API is chosen, this plugin requests data using plugins_api() function."
+"<br />When Directly is chosen, this plugin requests data to individual "
+"plugin page directly.<br />Therefore, after <a href=\"http://wordpress.org/"
+"extend/plugins/\">Plugin Directory</a> will be changed, this plugin may yet "
+"fail to get data."
+msgstr ""
+
+#: plugin-directory-stats-admin.php:63
+msgid "Keep data for"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:65
+msgid "seconds"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:66
+msgid "Enter cache data TTL."
+msgstr ""
+
+#: plugin-directory-stats-admin.php:71
+msgid "Save Changes"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:74
+msgid "2. Clear Cache"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:79
+msgid "Clear Cache"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:82
+msgid "3. Your System Info"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:85
+msgid "Server OS:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:86
+msgid "PHP version:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:87
+msgid "MySQL version:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:88
+msgid "WordPress version:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:89
+msgid "Site URL:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:90
+msgid "WordPress URL:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:91
+msgid "WordPress language:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:92
+msgid "WordPress character set:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:93
+msgid "WordPress theme:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:94
+msgid "Plugin Directory Stats version:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:95
+msgid "Plugin Directory Stats DB version:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:96
+msgid "Plugin Directory Stats URL:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:97
+msgid "Your browser:"
+msgstr ""
+
+#: plugin-directory-stats-admin.php:101
+msgid "To report a bug ,submit requests and feedback, "
+msgstr ""
+
+#: plugin-directory-stats-admin.php:101
+msgid ""
+"Use <a href=\"http://wordpress.org/tags/plugin-directory-stats?forum_id=10"
+"\">Forum</a> or <a href=\"http://www.near-mint.com/blog/contact\">Mail From</"
+"a>"
+msgstr ""
+
+#: plugin-directory-stats.php:155
+msgid ""
+"Plugin Directory Stats has successfully created new DB table.<br />If you "
+"upgraded to this version, some setting options may be added or reset to the "
+"default values.<br />Go to the <a href=\"options-general.php?page=plugin-dir-"
+"stats-options\">setting panel</a> and configure Plugin Directory Stats now. "
+"Once you save your settings, this message will be cleared."
+msgstr ""
+
+#: plugin-directory-stats.php:173
+msgid "Settings"
+msgstr ""
+
+#: plugin-directory-stats.php:358
+msgid "Today: "
+msgstr ""
+
+#: plugin-directory-stats.php:358
+msgid "Yesterday: "
+msgstr ""
+
+#: plugin-directory-stats.php:358
+msgid "Last Week: "
+msgstr ""
+
+#: plugin-directory-stats.php:362
+msgid "Relase: "
+msgstr ""
+
+#: plugin-directory-stats.php:365
+msgid "Version: "
+msgstr ""
+
+#: plugin-directory-stats.php:365
+msgid "Last Updated: "
+msgstr ""
+
+#: plugin-directory-stats.php:365
+msgid "Requires: "
+msgstr ""
+
+#: plugin-directory-stats.php:365
+msgid "Tested up to: "
+msgstr ""
+
+#: plugin-directory-stats.php:365 plugin-directory-stats.php:384
+#: plugin-directory-stats.php:404
+msgid "Downloads: "
+msgstr ""
+
+#: plugin-directory-stats.php:365
+msgid "Average Rating: "
+msgstr ""
+
+#: plugin-directory-stats.php:365
+msgid " ratings"
+msgstr ""
+
+#: plugin-directory-stats.php:404
+msgid "Current Version: "
+msgstr ""
+
+#: plugin-directory-stats.php:404
+msgid "Updated: "
+msgstr ""
+
+#: plugin-directory-stats.php:404
+msgid "Rating: "
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Plugin Directory Stats"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Plugin Directory Stats 0.1.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (Plugin Directory Stats 0.1.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.near-mint.com/blog/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin gets plugin's download count and other stats from WordPress.ORG "
+"and allows you to show them on your blog using shortcode."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "redcocker"
+msgstr ""

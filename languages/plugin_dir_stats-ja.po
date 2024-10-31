@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin Directory Stats\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-03 19:41+0900\n"
+"PO-Revision-Date: 2012-03-07 20:12+0900\n"
+"Last-Translator: redcocker\n"
+"Language-Team: redcocker\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# description
+msgid "This plugin gets plugin's download count and other stats from WordPress.ORG and allows you to show them on your blog using shortcode."
+msgstr "このプラグインは、WordPress.ORGから指定したプラグインのダウンロード数などの統計情報を取得し、ショートコードを使って記事の中で表示出来るようにします。"
+
+#: ../plugin-directory-stats-admin.php:11
+msgid "Cheatin&#8217; uh?"
+msgstr "間違いましたか？"
+
+#: ../plugin-directory-stats-admin.php:32
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+#: ../plugin-directory-stats-admin.php:39
+msgid "All cached data were deleted."
+msgstr "全てのキャッシュデータが削除されました。"
+
+#: ../plugin-directory-stats-admin.php:49
+msgid "1. Settings"
+msgstr "１．設定"
+
+#: ../plugin-directory-stats-admin.php:52
+msgid "Data request mode"
+msgstr "データのリクエストモード"
+
+#: ../plugin-directory-stats-admin.php:55
+msgid "API"
+msgstr "API"
+
+#: ../plugin-directory-stats-admin.php:56
+msgid "Directly"
+msgstr "ダイレクト"
+
+#: ../plugin-directory-stats-admin.php:58
+msgid "When API is chosen, this plugin requests data using plugins_api() function.<br />When Directly is chosen, this plugin requests data to individual plugin page directly.<br />Therefore, after <a href=\"http://wordpress.org/extend/plugins/\">Plugin Directory</a> will be changed, this plugin may yet fail to get data."
+msgstr "「API」を選択した場合。plugins_api()関数を用いてデータを取得します。<br />「ダイレクト」を選択した場合は、「<a href=\"http://wordpress.org/extend/plugins/\">Plugin Directory</a>」の個々のプラグインページから直接データを取得します。<br />そのため、「Plugin Directory」に変更があった場合、データが取得出来なくなる可能性があります。"
+
+#: ../plugin-directory-stats-admin.php:62
+msgid "Keep data for"
+msgstr "データの保持時間"
+
+#: ../plugin-directory-stats-admin.php:64
+msgid "seconds"
+msgstr "秒"
+
+#: ../plugin-directory-stats-admin.php:65
+msgid "Enter cache data TTL."
+msgstr "キャッシュデータの保持時間を入力します。"
+
+#: ../plugin-directory-stats-admin.php:70
+msgid "Save Changes"
+msgstr "設定を保存"
+
+#: ../plugin-directory-stats-admin.php:73
+msgid "2. Clear Cache"
+msgstr "２．キャッシュのクリア"
+
+#: ../plugin-directory-stats-admin.php:78
+msgid "Clear Cache"
+msgstr "キャッシュのクリア"
+
+#: ../plugin-directory-stats-admin.php:81
+msgid "3. Your System Info"
+msgstr "３．システム情報"
+
+#: ../plugin-directory-stats-admin.php:84
+msgid "Server OS:"
+msgstr "サーバーのOS:"
+
+#: ../plugin-directory-stats-admin.php:85
+msgid "PHP version:"
+msgstr "PHPのバージョン:"
+
+#: ../plugin-directory-stats-admin.php:86
+msgid "MySQL version:"
+msgstr "MySQLのバージョン:"
+
+#: ../plugin-directory-stats-admin.php:87
+msgid "WordPress version:"
+msgstr "WordPressのバージョン:"
+
+#: ../plugin-directory-stats-admin.php:88
+msgid "Site URL:"
+msgstr "サイトのURL:"
+
+#: ../plugin-directory-stats-admin.php:89
+msgid "WordPress URL:"
+msgstr "WordPressのURL:"
+
+#: ../plugin-directory-stats-admin.php:90
+msgid "WordPress language:"
+msgstr "WordPressのロケール:"
+
+#: ../plugin-directory-stats-admin.php:91
+msgid "WordPress character set:"
+msgstr "WordPressの文字コード:"
+
+#: ../plugin-directory-stats-admin.php:92
+msgid "WordPress theme:"
+msgstr "WordPressのテーマ:"
+
+#: ../plugin-directory-stats-admin.php:93
+msgid "Plugin Directory Stats version:"
+msgstr "Plugin Directory Statsのバージョン:"
+
+#: ../plugin-directory-stats-admin.php:94
+msgid "Plugin Directory Stats DB version:"
+msgstr "Plugin Directory StatsのDBバージョン:"
+
+#: ../plugin-directory-stats-admin.php:95
+msgid "Plugin Directory Stats URL:"
+msgstr "Plugin Directory StatsのURL:"
+
+#: ../plugin-directory-stats-admin.php:96
+msgid "Your browser:"
+msgstr "ブラウザ:"
+
+#: ../plugin-directory-stats-admin.php:100
+msgid "To report a bug ,submit requests and feedback, "
+msgstr "バグの報告、ご要望、ご感想は、"
+
+#: ../plugin-directory-stats-admin.php:100
+msgid "Use <a href=\"http://wordpress.org/tags/plugin-directory-stats?forum_id=10\">Forum</a> or <a href=\"http://www.near-mint.com/blog/contact\">Mail From</a>"
+msgstr "<a href=\"http://wordpress.org/tags/plugin-directory-stats?forum_id=10\">フォーラム</a> または、<a href=\"http://www.near-mint.com/blog/contact\">メールフォーム</a>まで"
+
+#: ../plugin-directory-stats.php:155
+msgid "Plugin Directory Stats has successfully created new DB table.<br />If you upgraded to this version, some setting options may be added or reset to the default values.<br />Go to the <a href=\"options-general.php?page=plugin-dir-stats-options\">setting panel</a> and configure Plugin Directory Stats now. Once you save your settings, this message will be cleared."
+msgstr "Plugin Directory Statsは、新しいデータベーステーブルの作成に成功しました。<br />以前のバージョンからアップデートした場合は、設定オプションが追加されていたり、リセットされているかもしてません。<br /><a href=\"options-general.php?page=plugin-dir-stats-options\">設定画面</a>で、Plugin Directory Statsの設定を行って下さい。一度、設定を保存すれば、このメッセージは消えます。"
+
+#: ../plugin-directory-stats.php:173
+msgid "Settings"
+msgstr "設定"
+
+#: ../plugin-directory-stats.php:358
+msgid "Today: "
+msgstr "今日： "
+
+#: ../plugin-directory-stats.php:358
+msgid "Yesterday: "
+msgstr "昨日： "
+
+#: ../plugin-directory-stats.php:358
+msgid "Last Week: "
+msgstr "過去７日： "
+
+#: ../plugin-directory-stats.php:362
+msgid "Relase: "
+msgstr "リリース日： "
+
+#: ../plugin-directory-stats.php:365
+msgid "Version: "
+msgstr "バージョン： "
+
+#: ../plugin-directory-stats.php:365
+msgid "Last Updated: "
+msgstr "最終更新日： "
+
+#: ../plugin-directory-stats.php:365
+msgid "Requires: "
+msgstr "WPの最低要件： "
+
+#: ../plugin-directory-stats.php:365
+msgid "Tested up to: "
+msgstr "動作確認済みWPバージョン： "
+
+#: ../plugin-directory-stats.php:365
+#: ../plugin-directory-stats.php:384
+#: ../plugin-directory-stats.php:404
+msgid "Downloads: "
+msgstr "ダウンロード： "
+
+#: ../plugin-directory-stats.php:365
+msgid "Average Rating: "
+msgstr "評価： "
+
+#: ../plugin-directory-stats.php:365
+msgid " ratings"
+msgstr " 人による評価"
+
+#: ../plugin-directory-stats.php:404
+msgid "Current Version: "
+msgstr "最新バージョン： "
+
+#: ../plugin-directory-stats.php:404
+msgid "Updated: "
+msgstr "更新日： "
+
+#: ../plugin-directory-stats.php:404
+msgid "Rating: "
+msgstr "評価： "
+

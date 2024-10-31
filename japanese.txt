@@ -1,0 +1,125 @@
+﻿はじめに
+
+このプラグインは、WordPress.ORGから指定したプラグインのダウンロード数などの統計情報を取得し、ショートコードを使って記事の中で表示出来るようにします。
+
+
+特徴
+・簡単、かつ柔軟。
+・統計情報をキャッシュ。
+・管理画面やメッセージは、英語、日本語、ドイツ語(訳：Uli Sobers)に対応。
+
+
+1.動作環境
+
+・WordPress バージョン2.8 以上
+
+
+2.インストール
+
+・ダウンロードしたファイルを解凍し、「plugin-directory-stats」フォルダごと、WordPressのプラグインディレクトリ（wp-content/plugins/）にアップロードします。
+・WordPressの管理画面の「プラグイン」で、このプラグインを有効化します。
+・WordPressの管理画面の「設定」->「Plugin Dir Stats」で設定を行います。
+
+注意：「データの保持時間」に、極端に短い秒数を設定しないで下さい。あなたのサイトに負荷をかけることになります。また、WordPress.COMに対しても良いことではありません。
+
+
+3.アップデート
+
+WordPressの管理画面で、プラグインを停止し、インストールの要領でファイルをサーバーにアップロード、上書きした後、再度、有効化する。
+
+
+4.アンインストール
+
+WordPressの管理画面で、まずプラグインを停止し、削除を実行する。
+
+
+5.使い方
+
+次のショートコードを記事/固定ページ/ウィジェットに記述して下さい。
+
+・整形済み統計情報
+
+・個別プラグインの統計： [plugin_stats src="プラグインのスラッグ"]
+・特定の作者の全プラグインのリスト: [plugin_list src="作者の表示名"]
+
+
+以下に具体的な使用例をまとめます。
+
+プラグインのページのURLが「http://wordpress.org/extend/plugins/plugin-directory-stats/」なら「プラグインのスラッグ」は「plugin-directory-stats」になります。
+
+・例： [plugin_stats src="plugin-directory-stats"]
+
+
+「作者の表示名」は、プラグインのページや作者のプロファイルページで見つけることが出来ます。
+
+・例： [plugin_list src="redcocker"]
+
+注意：「特定の作者の全プラグインのリスト」は、常に「ダイレクトモード」で動作します。
+
+
+・個別の統計情報
+
+情報を個別に表示させたい場合は、次のショートコードを使用します。
+
+= APIモード用 =
+
+・作者： [plugin_author src="プラグインのスラッグ"]
+・作者のサイト： [plugin_site src="プラグインのスラッグ"]
+・プラグインのページ： [plugin_hp src="プラグインのスラッグ"]
+・リリース日： [plugin_added src="プラグインのスラッグ"]
+・インストールされたバージョンのWordPressとの互換性: [plugin_compatibility src="プラグインのスラッグ"]
+
+= ダイレクトモード用 =
+
+・ダウンロード数（今日）： [plugin_today src="プラグインのスラッグ"]
+・ダウンロード数（昨日）： [plugin_yesterday src="プラグインのスラッグ"]
+・ダウンロード数（過去7日間）： [plugin_last_week src="プラグインのスラッグ"]
+
+= 両モード共通 =
+
+・プラグイン名： [plugin_name src="プラグインのスラッグ"]
+・現行バージョン： [plugin_version src="プラグインのスラッグ"]
+・最新更新日： [plugin_last_updated src="プラグインのスラッグ"]
+・WPの最低要件： [plugin_requires src="プラグインのスラッグ"]
+・動作確認済みWPバージョン： [plugin_tested src="プラグインのスラッグ"]
+・ダウンロード数（全期間）： [plugin_dl src="プラグインのスラッグ"]
+・評価（最高点5）： [plugin_rating src="プラグインのスラッグ"]
+・評価した人の数： [plugin_num_ratings src="プラグインのスラッグ"]
+・ダウンロードURL： [plugin_download_link src="プラグインのスラッグ"]
+
+
+6.ライセンス
+
+GPL v2
+
+
+7.このプラグインが気に入ったら
+
+プラグインの開発のサポートをお願いしております。
+
+http://www.near-mint.com/blog/donate
+
+
+8.履歴
+
+2012/5/15　バージョン 0.1.4 リリース
+※ 変更後の新しい「Plugin Directory」に対応。
+
+2012/3/7　バージョン 0.1.3 リリース
+※ 不要なループを削除。
+※ このプラグインを初めて有効化した際に、データベースエラーが発生する不具合を修正。
+
+2012/3/6　バージョン 0.1.2 リリース
+※ 不要なループを削除。
+
+2012/3/6　バージョン 0.1.1 リリース
+※ 設定画面で「３．システム情報」の「Plugin Directory Statsのバージョン」が表示されない不具合を修正。
+※ 設定画面で「３．システム情報」の「Plugin Directory StatsのDBバージョン」が表示されない不具合を修正。
+※ 設定画面で「３．システム情報」の「Plugin Directory StatsのURL」が表示されない不具合を修正。
+
+2012/3/5　バージョン 0.1 リリース
+
+
+Redcocker
+URL: http://www.near-mint.com/blog/
+WP Wapuu Widget: http://www.near-mint.com/blog/software/plugin-directory-stats
